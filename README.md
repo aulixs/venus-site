@@ -19,4 +19,11 @@
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve the folder with any static web server. For example:
+Open `index.html` directly in a browser, or serve the folder with any static web server.
+
+## Project structure 
+
+├── index.html   # Page content and structure
+├── style.css    # Layout, typography, colors, and responsive styles
+├── app.js       # Venus shader, rotation, inertia, and animation lifecycle
+└── README.md    # Project overview and setup instructions
