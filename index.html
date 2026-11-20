@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <meta name="description" content="Neuchâtel, un monde de belles adresses à découvrir.">
+  <title>Neuchâtel — Un monde à part</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="experience">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="atmosphere" aria-hidden="true"></div>
+      <canvas class="venus" id="venus" tabindex="0" role="img" aria-label="Planète Vénus. Faites glisser pour la faire tourner, ou utilisez les flèches du clavier."></canvas>
+
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Neuchâtel, accueil">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <circle cx="22" cy="22" r="17.5" fill="none" stroke="currentColor" stroke-width="1"/>
+            <ellipse cx="22" cy="22" rx="17.5" ry="6.5" fill="none" stroke="currentColor" stroke-width="1" transform="rotate(-32 22 22)"/>
+            <circle cx="33" cy="13" r="2.25" fill="#d4a773"/>
+          </svg>
+          <span class="brand-name">NEUCHÂTEL<span>ATLAS LOCAL</span></span>
+        </a>
+        <div class="header-note"><span class="header-dot"></span>CANTON DE NEUCHÂTEL</div>
+      </header>
+
+      <div class="hero-copy">
+        <p class="hero-kicker">UN MONDE DE BELLES ADRESSES</p>
+        <h1 id="hero-title">Tout un monde,<br>au <em>coin de la rue.</em></h1>
+        <p class="hero-description">Les commerces indépendants du canton de Neuchâtel, sous un autre jour.</p>
+      </div>
+
+      <div class="planet-label" aria-hidden="true"><span>VENUS</span><i></i><span>ROTATION LENTE</span></div>
+      <div class="bottom-rule"><span>NEUCHÂTEL · SUISSE</span><a href="#adresses">DÉFILER POUR DÉCOUVRIR <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v10M4 8.5l4 4 4-4"/></svg></a></div>
+    </section>
+
+    <section class="discovery" id="adresses" aria-labelledby="discovery-title">
+      <div class="discovery-inner">
+        <header class="discovery-heading">
+          <h2 id="discovery-title">Derrière chaque porte,<br>un autre <em>Neuchâtel.</em></h2>
+          <p class="discovery-description">Des maisons de café, des ateliers et des tables indépendantes. Quelques adresses pour commencer à regarder le canton autrement.</p>
+        </header>
+        <div class="address-list" aria-label="Exemples de commerces neuchâtelois">
+          <a class="address-row address-featured" href="https://www.commerces-ne.ch/commerces/au-moka-artisan-torrefacteur-cafes-et-thes/" target="_blank" rel="noopener noreferrer">
+            <span class="address-kind">CAFÉ · THÉ</span>
+            <span class="address-name">Au Moka</span>
+            <span class="address-place">RUE DU CONCERT 4 · NEUCHÂTEL</span>
+            <span class="address-description">Une maison familiale de cafés et de thés, ancrée à Neuchâtel.</span>
+            <svg class="address-arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M6 5h9v9"/></svg>
+          </a>
+          <a class="address-row" href="https://www.commerces-ne.ch/commerces/boutique-atelier-au-c-cedille/" target="_blank" rel="noopener noreferrer">
+            <span class="address-kind">ATELIER · BOUTIQUE</span>
+            <span class="address-name">Au c cédille</span>
+            <span class="address-place">RUE DU SEYON 25 · NEUCHÂTEL</span>
+            <span class="address-description">Un atelier-boutique de cadeaux, objets et créations artisanales.</span>
+            <svg class="address-arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M6 5h9v9"/></svg>
+          </a>
+          <a class="address-row" href="https://www.commerces-ne.ch/commerces/pizzafun-val-de-travers/" target="_blank" rel="noopener noreferrer">
+            <span class="address-kind">À TABLE</span>
+            <span class="address-name">Petite Manie</span>
+            <span class="address-place">PLACE D’ARMES · VAL-DE-TRAVERS</span>
+            <span class="address-description">Une table conviviale où la cuisine végétarienne tient une place centrale.</span>
+            <svg class="address-arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M6 5h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="discovery-footer"><span>ADRESSES ET DESCRIPTIONS : ANNUAIRE COMMERCES-NE.CH</span><a href="https://www.commerces-ne.ch/commerces/" target="_blank" rel="noopener noreferrer">PARCOURIR L’ANNUAIRE <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M6 5h9v9"/></svg></a></div>
+    </section>
+  </main>
+</body>
+</html>
