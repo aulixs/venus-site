@@ -1,4 +1,3 @@
-### Venus site
 ## Features
 
 - Procedural Venus rendered with a custom shader using native WebGL.
